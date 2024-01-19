@@ -8,11 +8,11 @@ module.exports = {
       black: "#000000",
       white: "#FFFFFF",
     },
-    fontFamily: {
-      DM: ["DM Sans", "sans-serif"],
-      serif: ["Merriweather", "serif"],
+    extend: {
+      fontFamily: {
+        DM: ["DM Sans", "sans-serif"],
+      },
     },
-    extend: {},
   },
   plugins: [],
 };
